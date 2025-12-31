@@ -9,7 +9,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div>
-                    <img className="h-80 rounded-3xl" src="/src/assets/Fotoku.webp" alt="Fotoku" />
+                    <img className="h-80 rounded-3xl" src="/images/Fotoku.webp" alt="Foto" />
                 </div>
             </div>
         </div>
