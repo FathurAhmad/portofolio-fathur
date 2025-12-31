@@ -18,7 +18,7 @@ const Projects = () => {
             title: "IMoney",
             desc: "Aplikasi pengelolaan keuangan pribadi yang membantu pengguna dalam mencatat pemasukan dan pengeluaran mereka.",
             category: ["Android", "Java", "Firebase", "Supabase"],
-            img: "/images/Imoney.png"
+            img: "/images/IMoney.png"
         },
     ];
 
