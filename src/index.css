@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/index.css */
+.swiper-button-next, .swiper-button-prev {
+  background-color: white;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  font-size: 18px !important;
+  font-weight: bold;
+  color: #0f172a;
+}
+
+.swiper-pagination-bullet-active {
+  background: #0ea5e9 !important; /* Warna biru cerah */
+}
