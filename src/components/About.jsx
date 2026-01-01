@@ -1,13 +1,20 @@
 const About = () => {
     return (
-        <div className="h-screen bg-[#11172a]  flex">
-            <div className="max-w-5xl flex items-center justify-between mx-auto gap-40">
-                <div>
-                    <img className="h-80 rounded-3xl" src="/images/Fotoku.webp" alt="Foto" />
+        <div id="about" className="min-h-screen bg-[#11172a] text-white flex flex-col items-center justify-center gap-10">
+            <h1 className="text-5xl font-bold">About Me</h1>
+            <div className="max-w-5xl flex flex-col gap-10 md:flex-row md:gap-0 items-center justify-between">
+                <div className="bg-[#1e253e] rounded-3xl shadow-xl w-auto">
+                    <img className="h-[400px] w-[300px] rounded-3xl object-cover" src="/images/Fotoku.webp" alt="Ahmad Fathur Rahman" />
                 </div>
-                <p className="text-lg text-[#dfe5ec]">
-                    Mahasiswa S1 Teknologi Informasi Universitas Brawijaya dengan spesialisasi di bidang Web Programming dan Application Development. Berpengalaman membangun aplikasi responsif menggunakan Laravel, Tailwind CSS, serta aplikasi mobile dengan integrasi cloud melalui Firebase Authentication dan Supabase.
-                </p>
+                <div  className="text-lg flex flex-wrap flex-col text-justify md:w-[60%] w-full px-4">
+                    <p>
+                        Mahasiswa S1 Teknologi Informasi Universitas Brawijaya dengan spesialisasi di bidang Web Programming dan Application Development. Berpengalaman membangun aplikasi responsif menggunakan Laravel, Tailwind CSS, serta aplikasi mobile dengan integrasi cloud melalui Firebase Authentication dan Supabase.
+                    </p>
+                    <br />
+                    <p>
+                        Memiliki kemampuan problem-solving yang baik, komunikatif, dan mampu bekerja secara mandiri maupun dalam tim. Bersemangat untuk terus belajar teknologi baru.
+                    </p>
+                </div>
             </div>
         </div>
     );

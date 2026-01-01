@@ -21,3 +21,7 @@
 .swiper-pagination-bullet-active {
   background: #0ea5e9 !important; /* Warna biru cerah */
 }
+
+html {
+  scroll-behavior: smooth;
+}

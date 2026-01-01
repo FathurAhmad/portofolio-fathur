@@ -23,9 +23,9 @@ const Projects = () => {
     ];
 
     return (
-        <div className="bg-[#0f172a] min-h-screen py-16 px-4 md:px-20 text-white">
+        <div id="projects" className="bg-[#0f172a] min-h-screen py-16 px-4 md:px-20 text-white">
             <div className="max-w-5xl mx-auto">
-                <h2 className="text-4xl font-bold mb-12 text-center">Project Showcase</h2>
+                <h2 className="text-5xl font-bold mb-12 text-center">Project</h2>
                 <Swiper
                     modules={[Navigation, Pagination]}
                     spaceBetween={30}
@@ -38,7 +38,7 @@ const Projects = () => {
                     {projects.map((project, index) => (
                         <SwiperSlide key={index}>
                             {/* Card Container */}
-                            <div className="flex flex-col md:flex-row bg-white text-slate-900 min-h-[300px] rounded-3xl overflow-hidden">
+                            <div className="flex flex-col md:flex-row bg-white text-slate-900 min-h-[350px] rounded-3xl overflow-hidden">
 
                                 {/* Sisi Kiri: Gambar (50%) */}
                                 <div className="md:w-1/2 h-64 md:h-auto overflow-hidden">
