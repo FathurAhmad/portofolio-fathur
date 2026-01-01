@@ -43,7 +43,7 @@ const Skills = () => {
     ];
 
     return (
-        <div id="skills" className=" min-h-screen bg-[#1e253e] flex flex-col items-center justify-center text-white">
+        <div id="skills" className=" min-h-screen bg-[#1e253e] flex flex-col items-center justify-center py-5 text-white">
             <h1 className="text-5xl font-bold items-center mb-10">Skills</h1>
             <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 pb-16">
                 {skills.map((skill, index) => (

@@ -11,7 +11,7 @@ const Navbar = () => {
         <nav className="fixed w-full bg-[#11172a] p-3 shadow-xl z-50">
             <div className="max-w-6xl mx-auto flex items-center justify-between">
 
-                <h1 className="text-white text-3xl font-semibold">
+                <h1 className="text-white md:text-3xl text-xl font-semibold">
                     Ahmad Fathur Rahman
                 </h1>
 
