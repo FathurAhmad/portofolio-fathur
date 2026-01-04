@@ -8,7 +8,7 @@ const About = () => {
                 </div>
                 <div  className="text-lg flex flex-wrap flex-col md:text-justify text-center md:w-[60%] w-full px-4">
                     <p>
-                        Mahasiswa S1 Teknologi Informasi Universitas Brawijaya dengan spesialisasi di bidang Web Programming dan Application Development. Berpengalaman membangun aplikasi responsif menggunakan Laravel, Tailwind CSS, serta aplikasi mobile dengan integrasi cloud melalui Firebase Authentication dan Supabase.
+                        Mahasiswa S1 Teknologi Informasi Universitas Brawijaya dengan spesialisasi di bidang <i>Web Programming</i> dan <i>Application Development</i>. Berpengalaman membangun aplikasi responsif menggunakan Laravel, Tailwind CSS, serta aplikasi mobile dengan integrasi cloud melalui Firebase Authentication dan Supabase.
                     </p>
                     <br />
                     <p>

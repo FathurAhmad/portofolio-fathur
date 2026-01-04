@@ -25,7 +25,7 @@ const Projects = () => {
     return (
         <div id="projects" className="bg-[#0f172a] min-h-screen py-16 px-4 md:px-20 text-white">
             <div className="max-w-5xl mx-auto">
-                <h2 className="text-5xl font-bold mb-12 text-center">Project</h2>
+                <h2 className="text-5xl font-bold mb-12 text-center">Projects</h2>
                 <Swiper
                     modules={[Navigation, Pagination]}
                     spaceBetween={30}
